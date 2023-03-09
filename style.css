@@ -47,7 +47,7 @@ header h2 {
 
 header h1:hover {
     color: #000;
-    font-family: 'death';
+    font-family: 'death', sans-serif;
 } 
 header h2:hover {
     background-image: url(Fotos/logo.jpg);
@@ -118,5 +118,5 @@ footer {
 }
 .final {
     font-size: 2em;
-    font-family: 'death';
+    font-family: 'death', sans-serif;
 }
