@@ -1,0 +1,122 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+/*font-family: 'Quicksand', sans-serif*/
+@font-face {
+    font-family: 'reaper';
+    src: url("fontes/DEATH.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'death';
+    src: url("fontes/TheDeath.ttf") format("truetype");
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    font-family: 'Quicksand', sans-serif;
+    min-height: 100vh;
+    
+
+}
+header {
+    background-color: #F5F6F8;
+    font-family: 'reaper';
+    color: #00010D;
+    text-align: center;
+    font-size: 3em;
+}
+header nav > a {
+    color: #00010D;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    padding-right: 30px;
+}
+header nav > a:hover {
+    text-decoration: underline;
+}
+header h1 {
+    font-size: 10vh;
+    padding-top: 50px;
+}
+header h2 {
+    padding-bottom: 50px;
+} 
+
+header h1:hover {
+    color: #000;
+    font-family: 'death';
+} 
+header h2:hover {
+    background-image: url(Fotos/logo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 0;
+    position: relative;
+    
+}
+section {
+    color: #00010D;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.3em;
+    font-size: 2.5vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 15px;
+
+} 
+section h1 {
+    padding-bottom: 20px;
+    font-family: 'reaper';
+    text-align: center;
+    font-size: 2.5em;
+    color: #F5F6F8;
+}
+.normal {
+    background-color: #F5F6F8;
+}
+.imagem {
+    
+    background-color: #F5F6F8;
+    box-shadow: inset 6px 6px 13px 0px #00010d75;
+    background-attachment: fixed;
+}
+.imagem > p {
+    background-color: #f5f6f8ad;
+    display: inline-block;
+    padding: 5px;
+    width: 420px;
+    font-weight: bolder;
+}
+#img1 {
+    background-image: url(Fotos/kduniversity.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+
+}
+#img2 {
+    background-image: url(Fotos/warriors.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+}
+#img3 {
+    background-size: cover;
+    background: url(Fotos/reaper.jpg);
+    background-position: top center;
+    background-attachment: fixed;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+}
+.final {
+    font-size: 2em;
+    font-family: 'death';
+}
